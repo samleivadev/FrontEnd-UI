@@ -1,0 +1,25 @@
+.header{
+   
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+    background-color: black;
+    color: white
+}
+ul{
+    display: flex;
+   
+}
+.menu {
+    
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+
+    
+}
+.menu:hover {
+    color: coral;
+}
+   

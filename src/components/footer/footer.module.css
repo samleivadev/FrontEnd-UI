@@ -1,0 +1,12 @@
+.topfooter{
+    display: flex;
+    justify-content: center;
+    color: orange;
+}
+
+.finfo{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
