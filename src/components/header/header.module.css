@@ -1,0 +1,30 @@
+.header{
+   
+    display: flex;
+    justify-content: space-between;
+    background-color: #232F3E;
+    color: white
+}
+ul{
+    display: flex;
+   
+}
+.menu {
+    
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    
+}
+.menu:hover {
+    color: #05A0D1;
+}
+
+.logo{
+    margin-left: 60px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.menus{
+    margin-right: 60px;
+}
