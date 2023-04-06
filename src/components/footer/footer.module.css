@@ -1,7 +1,8 @@
 .topfooter{
     display: flex;
     justify-content: center;
-    color: orange;
+    color: #05A0D1;
+    background-color: #1a364c;
 }
 
 .finfo{
@@ -9,4 +10,11 @@
     justify-content: space-between;
     margin-left: 10%;
     margin-right: 10%;
+    color: white
+    
+}
+
+.lowfooter{
+    background-color: #152939;
+    height: 50px;
 }

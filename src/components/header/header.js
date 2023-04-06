@@ -5,8 +5,8 @@ import style from '../header/header.module.css';
 const Header = () => {
     return(
         <div className={style.header}>
-            <h2>Control Tower</h2>
-            <ul>
+            <div className={style.logo}>Control Tower</div>
+            <ul className={style.menus}>
                 <NavLink className={style.menu} to='/'>Home</NavLink>
                 <NavLink className={style.menu} to='/kiosk'>Kiosk</NavLink>
             </ul>

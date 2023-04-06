@@ -4,10 +4,11 @@ import style from '../footer/footer.module.css'
 const Footer = () => {
     return(
         <section>
-            <hr />
+            
             <section className={style.topfooter}>
               <h2>Work hard, have fun, make history</h2>  
             </section>
+            <div className={style.lowfooter}>
             <section className={style.finfo}>
                 <section className={style.fleft}>
                     Meta Engineers
@@ -19,7 +20,7 @@ const Footer = () => {
                     CVG2
                 </section>
             </section>
-            
+            </div>
         </section>
     );
 }
