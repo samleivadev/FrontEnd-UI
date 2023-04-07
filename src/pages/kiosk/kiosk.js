@@ -10,7 +10,7 @@ const KioskPage = () => {
                 
                 aaName="Samuel Leiva"
                 imageAA ='https://media.licdn.com/dms/image/D5635AQHyIoo2Ijofzw/profile-framedphoto-shrink_200_200/0/1658445629590?e=1681444800&v=beta&t=e56A3kM2_UqQ04m4fj00D0Q0ja_Ezl55tilR8ikXM0E'
-                aaLogin="Process Assistant"
+                aaLogin="@Calsamue"
                 aaID="3336339"
                 aaShift="DB-715"
                 aaDep="Kindle"

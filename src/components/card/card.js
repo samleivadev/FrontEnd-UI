@@ -9,7 +9,7 @@ function AACard(props){
   return(
     <div className={style.bioCard}>
         <div className={style.upperContainer}>
-            <div className={style.imgContainer}>
+            <div className={style.imgContainer1}>
             <img src={props.imageAA} alt="" height='150px' width="150px" />
             
             </div>
