@@ -8,6 +8,7 @@ function AACard(props){
     let aaPic = `url(${props.imageAA})`
   return(
     <div className={style.bioCard}>
+        <h2 className={style.hello}>Hello</h2>
         <div className={style.upperContainer}>
             <div className={style.imgContainer1}>
             <img src={props.imageAA} alt="" height='150px' width="150px" />
@@ -17,15 +18,15 @@ function AACard(props){
         <div className={style.lowerContainer}>
             <div className={style.devName}>{aaName}</div>
             <div className={style.devTitle}>{aaLogin}</div>
-            <div className={style.devDesc}>{aaID}</div>
-            <div className={style.devDesc}>{aaShift}</div>
-            <div className={style.devDesc}>{aaDep}</div>
+            <div className={style.devDesc}>Emp ID: {aaID}</div>
+            <div className={style.devDesc}>Shift: {aaShift}</div>
+            <div className={style.devDesc}>Department: {aaDep}</div>
                             
         </div>
         
         <div className={style.upperContainer}>
             <div className={style.imgContainer}>
-            <img src={props.imageAM} alt="" height='100px' width="100px" />
+            <img src={props.imageAM} alt="" height='80px' width="80px" />
             
         </div>
         <div className={style.lowerContainer}>
