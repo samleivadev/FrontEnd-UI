@@ -1,0 +1,26 @@
+.app-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .form-container {
+    flex-basis: 45%;
+  }
+  
+  .employee-details-container {
+    flex-basis: 45%;
+  }
+  
+  .form-container form {
+    margin-bottom: 20px;
+  }
+  
+  .employee-details-container h2 {
+    margin-top: 20px;
+  }
+  
+  .employee-details-container p {
+    margin-bottom: 10px;
+  }
+  
