@@ -1,19 +1,40 @@
+
 .app-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 5px;
+    
+    
   }
   
   .form-container {
-    flex-basis: 45%;
+    flex-basis: 25%;
+    background-color: #282c34;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+
+ 
   
   .employee-details-container {
-    flex-basis: 45%;
+    flex-basis: 70%;
+    background-color: rgb(208, 208, 208);
+    margin: 5px;
+    border-radius: 15px;
+    padding: 20px;
+    align-content: center;
+    font-size: 1.5rem;
   }
   
   .form-container form {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    font-size: 2rem;
   }
   
   .employee-details-container h2 {
