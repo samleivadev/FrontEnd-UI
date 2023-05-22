@@ -52,8 +52,13 @@ function HomePage () {
           {employeeData && (
             <div>
               <p>Badge ID: {employeeData.id}</p>
+              <p>Login: {employeeData.name}</p>
               <p>Name: {employeeData.name}</p>
+              <p>Shift: {employeeData.name}</p>
               <p>Manager: {employeeData.email}</p>
+              <p>AM Login: {employeeData.name}</p>
+              <p>Department: {employeeData.name}</p>
+              
             </div>
           )}
         </div>
@@ -61,8 +66,11 @@ function HomePage () {
           {employeeData && (
             <div>
               <h2>Today you are going to work in</h2>
+              <p>Icon: {employeeData.phone}</p>
               <p>Worstation: {employeeData.phone}</p>
+              <p>Location: {employeeData.phone}</p>
               <p>PA Assigned: {employeeData.website}</p>
+              <p>Movitational Quote: {employeeData.website}</p>
             </div>
           )}
         </div>

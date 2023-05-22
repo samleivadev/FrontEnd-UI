@@ -1,10 +1,9 @@
-
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    background-color: #282c34;
+    padding: 20px;
+    background-color: #333333;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
@@ -15,15 +14,13 @@
   .menus {
     display: flex;
     list-style: none;
-    
   }
   
   .menu {
     margin-left: 20px;
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     transition: color 0.3s ease;
-    font-size: 1.2rem;
   }
   
   .menu:hover {
@@ -34,19 +31,30 @@
     .header {
       flex-direction: column;
       align-items: flex-start;
+      padding: 10px;
     }
   
     .logo {
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
   
     .menus {
-      margin-top: 20px;
+      flex-direction: column;
+      margin-top: 10px;
     }
   
     .menu {
-      margin-left: 0;
-      margin-right: 20px;
+      margin: 5px 0;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      color: #333333;
+      transition: background-color 0.3s ease;
+    }
+  
+    .menu:hover {
+      background-color: #ff6f00;
+      color: #ffffff;
     }
   }
   
