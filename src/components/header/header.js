@@ -12,6 +12,7 @@ const Header = () => {
             <ul className={style.menus}>
                 <NavLink className={style.menu} to='/'>Home</NavLink>
                 <NavLink className={style.menu} to='/kiosk'>Kiosk</NavLink>
+                <NavLink className={style.menu} to='/kindle'>Kindle</NavLink>
             </ul>
         </div>
     );
